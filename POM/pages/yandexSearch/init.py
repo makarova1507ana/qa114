@@ -9,4 +9,6 @@ class YandexSearcher(Browser):
         return search_field
 
     def click_on_the_search_button(self):
-        return self.driver.find_element(Locators.search_button[0], Locators.search_button[1])
+        search_button = self.driver.find_element(Locators.search_button[0], Locators.search_button[1])
+        search_button.click()
+        return search_button
