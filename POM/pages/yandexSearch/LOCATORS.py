@@ -1,3 +1,0 @@
-
-class PageLocators:
-    pass
